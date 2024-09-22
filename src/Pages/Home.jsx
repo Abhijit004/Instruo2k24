@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <BackgroundLinesDemo />
-      <h2 className="text-5xl font-bold text-center bg-black text-white">
+      <h2 className="text-5xl font-bold text-center bg-black text-white font-clash-display tracking-tight">
         Amazing Things Coming <span className="text-blue-500">Soon</span>
       </h2>
       <FeaturesSectionDemo />
@@ -15,4 +15,3 @@ const Home = () => {
 };
 
 export default Home;
-
