@@ -64,7 +64,9 @@ const Sponsor = () => {
 
   return (
     <div className="flex flex-col justify-center items-center text-white bg-black min-h-screen py-16">
-      <h1 className="text-4xl font-bold mb-8">Our Sponsors</h1>
+      <h1 className="text-4xl font-bold mb-8 bg-gradient-to-r from-blue-200 via-blue-300 to-cyan-200 text-transparent bg-clip-text">
+        Our Sponsors
+      </h1>
       <p className="text-xl mb-12 text-center max-w-2xl">
         We&apos;re proud to be supported by these industry-leading companies
       </p>
