@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
         <div className="mt-6 text-center text-sm text-gray-500">
           <p>&copy; {new Date().getFullYear()} Instruo. All rights reserved.</p>
-          <p>Created by IIEST Shibpur</p>
+          <p>Made by Saral Gupta and Aratrika Gupta</p>
         </div>
       </div>
     </footer>
