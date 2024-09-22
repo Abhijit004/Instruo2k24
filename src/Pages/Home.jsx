@@ -7,12 +7,14 @@ const Home = () => {
   return (
     <div>
       <BackgroundLinesDemo />
-      <h2 className="text-5xl font-bold text-center bg-black text-white font-clash-display tracking-tight">
-        Amazing Things Coming <span className="text-blue-500">Soon</span>
+      <h2 className="text-4xl sm:text-5xl font-bold text-center bg-black text-white tracking-tight leading-tight px-4 py-6">
+        Amazing Things <br className="sm:hidden" />
+        Coming <span className="text-blue-500">Soon</span>
       </h2>
       <FeaturesSectionDemo />
-      <h2 className="text-5xl font-bold text-center bg-black text-white font-clash-display tracking-tight">
-        What People Are <span className="text-blue-500">Saying</span>
+      <h2 className="text-4xl sm:text-5xl font-bold text-center bg-black text-white tracking-tight leading-tight px-4 py-6">
+        What People Are <br className="sm:hidden" />
+        <span className="text-blue-500">Saying</span>
       </h2>
       <InfiniteMovingCardsDemo />
       <Footer />
