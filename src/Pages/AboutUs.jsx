@@ -4,7 +4,7 @@ import Footer from "../components/footer";
 const AboutUs = () => {
   return (
     <>
-      <div className="flex justify-center items-center bg-black h-screen w-full">
+      <div className="flex justify-center items-center bg-black min-h-screen w-full py-20">
         <WavyBackgroundDemo />
       </div>
       <Footer />

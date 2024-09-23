@@ -66,7 +66,7 @@ const Sponsor = () => {
 
   return (
     <>
-      <div className="flex flex-col justify-center items-center text-white bg-black min-h-screen py-16">
+      <div className="relative flex flex-col justify-center items-center text-white bg-black min-h-screen py-32">
         <h1 className="text-4xl font-bold mb-8 bg-gradient-to-r from-blue-200 via-blue-300 to-cyan-200 text-transparent bg-clip-text">
           Our Sponsors
         </h1>

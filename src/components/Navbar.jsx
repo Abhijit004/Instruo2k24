@@ -28,7 +28,7 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 mx-auto pt-4 pb-4 px-6 md:p-10 bg-black text-gray-200 shadow-md z-50 md:top-10 md:rounded-lg md:max-w-3xl">
+    <nav className="fixed right-0 left-0 top-0 md:top-3 md:left-7 md:right-7 md:p-8 bg-black text-gray-200 shadow-md z-50  md:rounded-lg ">
       <div className="flex justify-center items-center relative">
         <ul className="hidden md:flex md:flex-row md:gap-4 md:items-center text-sm md:text-lg font-sans">
           {navItems.map(({ item, key, route }) => (
@@ -52,13 +52,13 @@ const Navbar = () => {
           ))}
         </ul>
         <motion.div
-          className="md:hidden absolute right-0"
+          className="md:hidden absolute right-5 top-10 bg-black rounded-md"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
         >
           <button
             onClick={toggleMenu}
-            className="text-gray-200 focus:outline-none p-2 mt-10"
+            className="text-gray-200 focus:outline-none p-2 "
           >
             <svg
               className="h-6 w-6"
@@ -91,8 +91,8 @@ const Navbar = () => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            transition={{ duration: 0.3 }}
-            className="md:hidden flex flex-col mt-4 bg-black p-4 rounded-b-lg"
+            transition={{ duration: 0.4 }}
+            className="md:hidden flex flex-col w-full mt-4 bg-black p-7 rounded-b-lg"
           >
             {navItems.map(({ item, key, route }) => (
               <motion.li

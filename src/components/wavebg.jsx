@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export function WavyBackgroundDemo() {
   return (
-    <div className="flex justify-center items-center h-screen bg-gradient-to-br from-indigo-900 to-purple-900">
+    <div className="flex justify-center items-center h-screen ">
       <WavyBackground className="max-w-5xl mx-auto text-center px-6">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
