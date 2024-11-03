@@ -6,6 +6,7 @@ const navItems = [
   { item: "Home", key: "homepage", route: "/" },
   { item: "About Us", key: "about", route: "/about" },
   { item: "Sponsors", key: "sponsor", route: "/sponsor" },
+  { item: "Register", key: "register", route: "/register" },
 ];
 
 const Navbar = () => {

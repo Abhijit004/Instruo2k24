@@ -1,9 +1,10 @@
 .register-wrapper {
-    width: 100vw;
+    width: 100%;
     background: #121212;
     padding-top: 150px;
     
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
