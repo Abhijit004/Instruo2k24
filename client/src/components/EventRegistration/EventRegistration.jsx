@@ -27,7 +27,7 @@ const EventRegistration = () => {
         >
             <div className="register-container">
                 <h2>Event Registration</h2>
-                <Form form={form} layout="vertical" onFinish={onFinish} className="register-form">
+                <Form form={form} layout="vertical" onFinish={onFinish} size="large">
                     {/* Name */}
                     <Form.Item
                         label="Name"
@@ -35,7 +35,7 @@ const EventRegistration = () => {
                         rules={[{ required: true, message: "Please enter the event name" }]}
                         
                     >
-                        <Input placeholder="Enter event name" />
+                        <Input placeholder="Enter event name"/>
                     </Form.Item>
 
                     {/* Description */}
