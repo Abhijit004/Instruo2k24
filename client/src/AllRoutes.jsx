@@ -3,7 +3,8 @@ import AboutUs from "./Pages/AboutUs";
 import Sponsor from "./Pages/Sponsor";
 import Home from "./Pages/Home";
 import { useEffect } from "react";
-import EventRegistrationPage from "./Pages/EventRegistration/EventRegistration";
+// import EventRegistrationPage from "./components/EventRegistration/EventRegistration";
+import Register from "./Pages/Register/Register";
 
 const AllRoutes = () => {
   const location = useLocation();
@@ -16,7 +17,7 @@ const AllRoutes = () => {
       <Route path="/" exact element={<Home />} />
       <Route path="/about" element={<AboutUs />} />
       <Route path="/sponsor" element={<Sponsor />} />
-      <Route path="/eventregister" element={<EventRegistrationPage />} />
+      <Route path="/register" element={<Register />} />
 
     </Routes>
   );

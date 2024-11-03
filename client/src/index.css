@@ -2,9 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-* {
+*, *::after, *::before {
   margin: 0;
   padding: 0;
+  outline: 0;
   box-sizing: border-box;
 }
 
