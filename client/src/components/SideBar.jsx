@@ -28,7 +28,7 @@ const DrawerSidebar = () => {
             }}
         >
             <Layout>
-                <Header style={{ position: "fixed", zIndex: 1, width: "100%" }}>
+                <Header style={{ position: "fixed", zIndex: 1000, width: "100%" }}>
                     <Button
                         type="primary"
                         icon={<MenuOutlined />}
@@ -42,6 +42,8 @@ const DrawerSidebar = () => {
                             background: "transparent",
                             outline: "none",
                             border: "none",
+                            fontWeight: 700,
+                            fontSize: 20
                         }}
                     >
                         Instruo 2k24
