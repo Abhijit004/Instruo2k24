@@ -3,8 +3,8 @@
 } */
 
 .register-container {
-    width: min(100vw, 700px);
-    padding: 1.5rem;
+    width: min(95vw, 700px);
+    padding: 20px;
     background-color: rgba(255, 255, 255, 0.082);
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -13,6 +13,7 @@
     justify-content: center;
     flex-direction: column;
     /* background-color: red; */
+    margin: 1rem
 }
 
 .register-container h2 {

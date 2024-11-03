@@ -99,7 +99,7 @@ const EventRegistration = () => {
                             },
                         ]}
                     >
-                        <Upload maxCount={1} listType="picture" accept="image/*">
+                        <Upload maxCount={1} listType="picture" accept="image/*" action={"/#"}>
                             <Button icon={<UploadOutlined />}>Upload Poster</Button>
                         </Upload>
                     </Form.Item>
@@ -113,7 +113,7 @@ const EventRegistration = () => {
 
                     {/* Submit Button */}
                     <Form.Item>
-                        <Button type="primary" htmlType="submit">
+                        <Button size="large" type="primary" htmlType="submit">
                             Register Event
                         </Button>
                     </Form.Item>
