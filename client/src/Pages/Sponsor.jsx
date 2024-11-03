@@ -1,6 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import Footer from "../components/footer";
-import { footer } from "framer-motion/client";
 
 const Sponsor = () => {
   const sponsors = [
@@ -113,7 +111,6 @@ const Sponsor = () => {
           </a>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

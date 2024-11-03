@@ -2,7 +2,6 @@ import React from "react";
 import BackgroundLinesDemo from "../components/bglines";
 import { FeaturesSectionDemo } from "../components/features";
 import { InfiniteMovingCardsDemo } from "../components/infinite";
-import Footer from "../components/footer";
 const Home = () => {
   return (
     <div>
@@ -17,7 +16,6 @@ const Home = () => {
         <span className="text-blue-500">Saying</span>
       </h2>
       <InfiniteMovingCardsDemo />
-      <Footer />
     </div>
   );
 };
