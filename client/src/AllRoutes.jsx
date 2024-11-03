@@ -3,6 +3,8 @@ import AboutUs from "./Pages/AboutUs";
 import Sponsor from "./Pages/Sponsor";
 import Home from "./Pages/Home";
 import { useEffect } from "react";
+import EventRegistrationPage from "./Pages/EventRegistration/EventRegistration";
+
 const AllRoutes = () => {
   const location = useLocation();
 
@@ -14,6 +16,8 @@ const AllRoutes = () => {
       <Route path="/" exact element={<Home />} />
       <Route path="/about" element={<AboutUs />} />
       <Route path="/sponsor" element={<Sponsor />} />
+      <Route path="/eventregister" element={<EventRegistrationPage />} />
+
     </Routes>
   );
 };
